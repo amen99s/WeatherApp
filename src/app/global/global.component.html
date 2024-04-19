@@ -1,0 +1,26 @@
+<h1>Weather App</h1>
+
+<div>
+  <label>City name :
+    <input matInput [(ngModel)]="cityName">  
+</label>
+<button mat-stroked-button color="primary" (click)="getJson()">Search</button> <br>
+</div>
+
+
+<mat-card class="Weather-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{cityName}}</mat-card-title>
+      <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-header>
+    
+    <mat-card-content>
+      {{x}} 
+    </mat-card-content>
+
+    <mat-card-content>
+        {{worklist.weather[0].description}}
+    </mat-card-content>
+  </mat-card>
+  

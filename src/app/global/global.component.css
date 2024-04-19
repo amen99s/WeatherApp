@@ -1,0 +1,89 @@
+/* img{
+    height:100px;
+    width: 100px;
+}
+
+.Weather-card{
+    margin-left: 500px;
+    width: 200px;
+    height: 200px;
+    color: chocolate;
+} */
+
+/* General body styling for overall consistency and full-page centering */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; /* Light blue background for a calm, clean look */
+    color: #fff9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main header styling */
+h1 {
+    color: #0d47a1; /* Deeper blue for contrast */
+    text-align: center;
+    width: 100%;
+}
+
+/* Styling for the form area with input and button */
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styling for a more interactive look */
+button {
+    background-color: #2196f3; /* Vibrant blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-left: 10px; /* Space between input and button */
+}
+
+/* Weather card styling for centered content and visual appeal */
+.mat-card {
+    margin: auto;
+    background-color: #ffffff; /* White background for the card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* More pronounced shadow */
+    text-align: center;
+}
+
+.mat-card-header {
+    padding-bottom: 10px;
+}
+
+.mat-card-title {
+    font-size: 2.5em;
+    color: #0d47a1; /* Matching header */
+}
+
+.mat-card-content {
+    font-size: 1.8em;
+    color: white;
+    margin-top: 10px; /* Space between temperature and description */
+    padding: 10px 0;
+}
+
+/* Additional emphasis on the temperature for visual hierarchy */
+.mat-card-content:first-of-type {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px; /* More space before the description */
+}
